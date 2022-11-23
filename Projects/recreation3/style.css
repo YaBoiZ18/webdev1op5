@@ -1,0 +1,111 @@
+.example {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .a {
+    /* your code here */
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .b {
+    /* your code here */
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .c {
+    /* your code here */
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+  }
+  
+  .d {
+    /* your code here */
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .e {
+    /* your code here */
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+  }
+  
+  .f {
+    /* your code here */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 86%;
+  }
+  
+  .g {
+    /* your code here */
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 76.5%;
+  }
+  
+  /* Don't change any CSS below this line */
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial;
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: .5rem;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin: 1em 0;
+  }
+  
+  ul {
+    margin-left: 2rem;
+    font-size: 1.25rem;
+  }
+  
+  header {
+      padding: 2rem 0;
+  }
+  
+  section {
+    margin-bottom: 6rem;
+  }
+  
+  section h2 {
+    margin: 2rem 0;
+  }
+  
+  .container {
+      display: flex;
+      background-color: lightgray;
+      height: 30rem;
+  }
+  
+  .flex-item {
+      padding: 1rem;
+      font-size: 1.25rem;
+      outline: 2px solid red;
+      text-align: center;
+  }
+  
+  .example .flex-item {background-color: darkorange;}
+  .a .flex-item {background-color: lightcoral;}
+  .b .flex-item {background-color: gold;}
+  .c .flex-item {background-color: lightcyan;}
+  .d .flex-item {background-color: lightsteelblue;}
+  .e .flex-item {background-color: lightseagreen;}
+  .f .flex-item {background-color: violet;}
+  .g .flex-item {background-color: cornflowerblue;}
