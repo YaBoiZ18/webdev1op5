@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mulish&display=swap');
+
+
+
+header{
+  padding: 2rem;
+  margin-bottom: 5rem;
+  background-color: #f58545;
+  font-size: 1.5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+body{
+  max-width: 40rem;
+  margin: 0 auto;
+  background-color: #2bbfd8;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  padding: 3rem;
+  text-align: center;
+  background-color: #f58545;
+  color: #0e2749;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3{
+  font-family: 'EB Garamond', serif;
+  color: #0e2749;
+}
+
+p{
+  font-family: 'Mulish', sans-serif;
+  color: #0e2749;
+  font-size: 1.1rem;
+}
+
+section {
+  margin-bottom: 6rem;
+}
+
+a:hover {
+  color: #2bbfd8;
+}

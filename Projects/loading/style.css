@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+h1{
+  position: absolute;
+}
+
+#loading {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 1rem;
+  position: absolute;
+  border: 5px dashed lightblue;
+  
+  animation-name: move-forwards;
+  animation-duration: 10s;
+  animation-direction: forward;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-forwards{
+  from {
+    width: 100px;
+    background-color: hsl(0deg, 80%, 40%);
+  }
+  
+  to {
+    width: 1000px;
+    background-color: hsl(270deg, 80%, 40%);
+  }
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  animation: move-up 1s infinite alternate cubic-bezier(.24,1.56,.75,-0.68);
+}
+
+#waiting {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+  
+  animation-name: up-down;
+}
+
+.circle:nth-child(1) {animation-delay: 0;}
+.circle:nth-child(2) {animation-delay: 0.125s;}
+.circle:nth-child(3) {animation-delay: 0.25s;}
+
+@keyframes move-up {
+  
+  0% {
+    transform: translateY(0);
+    background-color: blue;
+  }
+  
+  100% {
+    transform: translateY(300%);
+    background-color: hsl(0deg, 80%, 40%);
+  }
+}

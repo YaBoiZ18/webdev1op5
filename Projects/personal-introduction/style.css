@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+  }
+  h1{
+    color: blue;
+    background-color: lightblue;
+    font-size: 60px;
+    font-family: monospace;
+    border: 10px dashed blue;
+  }
+  
+  h2{
+    color: blue;
+    background-color: lightblue;
+    border: 5px dotted;
+    font-size: 30px;
+  }
+  
+  h3{
+    color: blue;
+    background-color: lightblue;
+    border: 7px dotted
+  }
+  
+  p{
+    font-size: 20px;
+  }

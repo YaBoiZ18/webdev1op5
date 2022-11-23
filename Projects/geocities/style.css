@@ -1,0 +1,56 @@
+header{
+    padding: 2rem;
+    margin-bottom: 5rem;
+    background-color: #f58545;
+    font-size: 1.5rem;
+  }
+  
+  img {
+    
+    width: 500px;
+    height: 500px;
+    display: block;
+  }
+  
+  footer {
+     padding: 3rem;
+    text-align: center;
+    background-color: #f58545;
+    color: #0e2749;
+  }
+  
+  .box1 {
+     width: 700px;
+    height: 500px;
+    background-image: url("https://media.tenor.com/LWBiQMykM-AAAAAd/ichigo-ichigo-kurosaki.gif");
+    background-repeat: no-repeat;
+  }
+  
+  .box2{
+     width: 700px;
+    height: 500px;
+    background-image: url("https://i.pinimg.com/originals/2e/99/44/2e994434a2f804e84583436b03cd5332.gif");
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    background: linear-gradient(20deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  }
+  
+  .hello {
+    position: fixed;
+    padding: 2.6em;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+    background-color: cyan;
+  }
+  
+  .Hi {
+    position: position;
+    padding: 2.6em;
+    bottom: 0;
+    left: 0;
+    font-size: 25px;
+    background-color: cyan;
+  }
